@@ -3,7 +3,7 @@ largest = None
 smallest = None
 
 while True:
-    num = int(input("Enter a number: "))
+    num = int(input("Enter a number(To stop press 0): "))
     if num == 0:
         break
 
@@ -13,5 +13,6 @@ while True:
     if smallest is None or num < smallest:
         smallest = num
 
-print(f"Largest number entered is {largest}")
 print(f"Smallest number entered is {smallest}")
+print(f"Largest number entered is = {largest}")
+
