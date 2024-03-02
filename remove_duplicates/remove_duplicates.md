@@ -1,34 +1,24 @@
-### Code Snippet: Remove Duplicates from List
+## Summary
+This code snippet removes all occurrences of a given element from a Python list.
 
-#### Inputs
-The code snippet prompts the user to enter a list of elements separated by space.
-
-#### Flow
-1. The code snippet takes input from the user, expecting a string of elements separated by spaces.
-2. It converts the input string into a list of strings.
-3. It converts the list of strings into a list of integers.
-4. It creates a set from the list to remove duplicate elements.
-5. It converts the set back to a list to retain the distinct elements.
-6. It prints the list containing only the distinct elements.
-
-#### Outputs
-The code snippet outputs a list with duplicate elements removed.
-
+## Example Usage
 ```python
-# getting the input from the user
-data = input("Enter the list elements separated by space: ")
+Enter list of elements separated by comma: 1,2,3,4,5
+Enter element to be removed: 3
+[1, 2, 4, 5]
+```
 
-# converting the string to list
-list_data = data.split()
-
-# converting the list to integers
-list_data = [int(i) for i in list_data]
-
-# creating a set to remove the duplicates
-unique_set = set(list_data)
-
-# converting the set back to list
-distinct_list = list(unique_set)
-
-# printing the list
-print(distinct_list)
+## Code Analysis
+### Inputs
+- `L`: A list of elements entered by the user, separated by commas.
+- `x`: The element to be removed from the list.
+___
+### Flow
+1. The user is prompted to enter a list of elements and the element to be removed.
+2. The input list is converted from a string to a list of integers.
+3. List comprehension is used to create a new list (`result`) that contains all elements from the input list (`L`) except for the element to be removed (`x`).
+4. The `result` list is printed.
+___
+### Outputs
+- `result`: A new list that contains all elements from the input list except for the element to be removed.
+___
