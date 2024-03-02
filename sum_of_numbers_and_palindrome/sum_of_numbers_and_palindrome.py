@@ -2,7 +2,6 @@ def sum_of_numbers_and_palindrome():
     num = int(input("Enter a number: "))
     total_sum = sum(range(num + 1))
     
-    # Check if the number is a palindrome
     num_str = str(num)
     if num_str == num_str[::-1]:
         print(f"{num} is a palindrome.")

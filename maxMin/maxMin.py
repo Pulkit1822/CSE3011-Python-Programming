@@ -9,9 +9,7 @@ def maxMin(myList):
             minimum = myList[i]
     return maximum, minimum
 
-# Get user input
 list1 = input("Enter numbers separated by a space: ").split()
-# Convert each item to int type
 list1 = [int(item) for item in list1]
 
 max1, min1 = maxMin(list1)

@@ -1,4 +1,3 @@
-# Initialize counts for positive, negative, and zeros
 positive_count = 0
 negative_count = 0
 zero_count = 0

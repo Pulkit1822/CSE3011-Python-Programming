@@ -1,4 +1,3 @@
-# program to enter numbers till the user wants and at the end display largest and smallest numbers entered
 largest = None
 smallest = None
 
