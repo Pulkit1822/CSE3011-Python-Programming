@@ -1,25 +1,24 @@
 ## Summary
-This function checks if a given year is a leap year.
+This code snippet determines whether a given year is a leap year or not.
 
 ## Example Usage
 ```python
-is_leap_year(2000)
-# Output: True
-
-is_leap_year(1900)
-# Output: False
+Enter a year: 2020
+2020 is a leap year.
 ```
 
 ## Code Analysis
 ### Inputs
-- year: an integer representing the year to be checked
+- `year` (integer): The year to be checked.
 ___
 ### Flow
-1. Check if the year is divisible by 400. If it is, return True.
-2. If the year is not divisible by 400, check if it is not divisible by 100 and divisible by 4. If it is, return True.
-3. If none of the above conditions are met, return False.
+1. Prompt the user to enter a year.
+2. Read the input and convert it to an integer.
+3. Check if the year is divisible by 400 using the modulo operator (%).
+4. If it is divisible by 400, or if it is not divisible by 100 but divisible by 4, then it is a leap year.
+5. Print the appropriate message indicating whether the year is a leap year or not.
 ___
 ### Outputs
-- True if the year is a leap year
-- False if the year is not a leap year
+- If the year is a leap year, print "{year} is a leap year."
+- If the year is not a leap year, print "{year} is not a leap year."
 ___
