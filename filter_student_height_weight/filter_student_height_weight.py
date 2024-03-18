@@ -3,10 +3,10 @@ def filter_data(students):
     return result
     
 students = {
-    'Cierra Vega': (6.2, 70),
-    'Alden Cantrell': (5.9, 65),
-    'Kierra Gentry': (6.0, 68),
-    'Pierre Cox': (5.8, 66)
+    'Mukesh': (6.2, 70),
+    'Anant': (5.9, 65),
+    'Nita': (6.0, 68),
+    'Radhika': (5.8, 66)
 }
 
 print("Original Dictionary:")
