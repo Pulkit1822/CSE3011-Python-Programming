@@ -6,7 +6,7 @@ students = {
     'Mukesh': (6.2, 70),
     'Anant': (5.9, 65),
     'Nita': (6.0, 68),
-    'Radhika': (5.8, 66)
+    'Radhikaa': (5.8, 66)
 }
 
 print("Original Dictionary:")
