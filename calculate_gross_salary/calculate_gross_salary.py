@@ -22,3 +22,4 @@ def calculate_gross_salary(basic_salary):
 if __name__ == "__main__":
     basic_salary = float(input("Basic salary: "))
     calculate_gross_salary(basic_salary)
+
