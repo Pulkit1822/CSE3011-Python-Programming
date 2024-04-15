@@ -9,7 +9,7 @@ def determine_winner(player1, player2):
         return "Player 2 wins."
 
 if __name__ == "__main__":
-    player1_input = input("Player 1? ").lower()
-    player2_input = input("Player 2? ").lower()
-    result = determine_winner(player1_input, player2_input)
+    player1 = input("Player 1? ").lower()
+    player2 = input("Player 2? ").lower()
+    result = determine_winner(player1, player2)
     print(result)
