@@ -1,0 +1,4 @@
+Adama Lee,CAG,30000
+Morris Heather, Heroine,0
+Lee Bruce, JKD
+master, 100000
