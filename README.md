@@ -1,3 +1,9 @@
+### 💡 Explore Sponsorship Options
+
+To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development 😊
+
+
+---
 # CSE3011-Python-Programming
 
 Welcome to the CS360 Python Programming repository! This repository contains all the course material and assignments for CSE3011-Python-Programming at VIT Bhopal University.
