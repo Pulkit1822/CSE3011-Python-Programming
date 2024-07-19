@@ -1,5 +1,5 @@
 # [CSE3011-Python-Programming](https://github.com/Pulkit1822/CSE3011-Python-Programming)
-![]()
+![Python](https://github.com/Pulkit1822/CSE3011-Python-Programming/blob/main/content/python.png)
 
 Welcome to the CS360 Python Programming repository! This repository contains all the course material and assignments for CSE3011-Python-Programming at VIT Bhopal University.
 
