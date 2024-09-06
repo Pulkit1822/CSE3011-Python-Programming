@@ -10,3 +10,4 @@ try:
     print(f"The square root of {number} is {result}")
 except ValueError as e:
     print(f"Error: {e}")
+    
