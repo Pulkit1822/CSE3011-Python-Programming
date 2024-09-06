@@ -10,4 +10,3 @@ while count < n:
    count += 1
 
 print()
-
