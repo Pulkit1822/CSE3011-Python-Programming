@@ -25,3 +25,28 @@ ___
 ### Outputs
 - `distance` (int): The calculated distance traveled based on the given movements.
 ___
+
+## Purpose
+The purpose of this code snippet is to demonstrate how to calculate the distance traveled based on a series of movements in Python. It allows the user to input a list of movements and then calculates and prints the distance from the origin. This is a fundamental operation in Python programming and is useful for understanding how to work with loops, conditionals, and arithmetic operations.
+
+## Instructions to Run the Code
+1. Ensure that Python is installed on your system. You can download and install Python from the official website: [Python.org](https://www.python.org/)
+2. Copy the code snippet into a Python file, for example, `calculate_distance.py`.
+3. Open a terminal or command prompt and navigate to the directory where the Python file is saved.
+4. Run the Python file using the following command:
+   ```bash
+   python calculate_distance.py
+   ```
+5. Follow the prompt to enter a series of movements. The distance traveled based on the movements will be printed as the output.
+
+## Example Usage and Expected Output
+When you run the code, you will be prompted to enter a series of movements. For example:
+```python
+Enter movement (or 'STOP' to end input): UP 5
+Enter movement (or 'STOP' to end input): RIGHT 3
+Enter movement (or 'STOP' to end input): DOWN 2
+Enter movement (or 'STOP' to end input): LEFT 1
+Enter movement (or 'STOP' to end input): STOP
+5
+```
+In this example, the user enters the movements `UP 5`, `RIGHT 3`, `DOWN 2`, and `LEFT 1`. The calculated distance `5` is printed as the output.

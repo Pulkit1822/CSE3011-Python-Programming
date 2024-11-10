@@ -35,3 +35,33 @@ ___
 ### Outputs
 - `combined_dict`: A dictionary where the values for each key are stored in a list.
 ___
+
+## Purpose
+The purpose of this code snippet is to demonstrate how to combine multiple dictionaries into a single dictionary where the values for each key are stored in a list. This is useful for aggregating data from multiple sources and organizing it in a structured manner.
+
+## Instructions to Run the Code
+1. Ensure that Python is installed on your system. You can download and install Python from the official website: [Python.org](https://www.python.org/)
+2. Copy the code snippet into a Python file, for example, `combine_dicts_to_list_values.py`.
+3. Open a terminal or command prompt and navigate to the directory where the Python file is saved.
+4. Run the Python file using the following command:
+   ```bash
+   python combine_dicts_to_list_values.py
+   ```
+5. The combined dictionary with values stored in lists will be printed as the output.
+
+## Example Usage and Expected Output
+When you run the code, you will see the original dictionaries and the combined dictionary with values stored in lists. For example:
+```python
+dict1 = {"w": 50, "x": 100, "y": "Green", "z": 400}
+dict2 = {"x": 300, "y": "Red", "z": 600}
+combine_dicts_to_list_values(dict1, dict2)
+```
+Expected Output:
+```
+Original dictionaries:
+{'w': 50, 'x': 100, 'y': 'Green', 'z': 400}
+{'x': 300, 'y': 'Red', 'z': 600}
+
+Combined dictionaries, creating a list of values for each key:
+{'w': [50], 'x': [100, 300], 'y': ['Green', 'Red'], 'z': [400, 600]}
+```

@@ -36,3 +36,29 @@ def count_numbers():
     print(f"Zeroes entered: {zero_count}")
 
 count_numbers()
+```
+
+## Purpose
+The purpose of this code snippet is to demonstrate how to count the number of positive, negative, and zero numbers entered by the user in Python. It allows the user to input a series of numbers and then calculates and prints the counts of positive, negative, and zero numbers. This is a fundamental operation in Python programming and is useful for understanding how to work with loops and conditionals.
+
+## Instructions to Run the Code
+1. Ensure that Python is installed on your system. You can download and install Python from the official website: [Python.org](https://www.python.org/)
+2. Copy the code snippet into a Python file, for example, `count_number_types.py`.
+3. Open a terminal or command prompt and navigate to the directory where the Python file is saved.
+4. Run the Python file using the following command:
+   ```bash
+   python count_number_types.py
+   ```
+5. Follow the prompt to enter a series of numbers. The code will determine the counts of positive, negative, and zero numbers and print the result.
+
+## Example Usage and Expected Output
+When you run the code, you will be prompted to enter a series of numbers. For example:
+```python
+Enter a number (enter 0 to stop): 5
+Enter a number (enter 0 to stop): -3
+Enter a number (enter 0 to stop): 0
+Positive numbers entered: 1
+Negative numbers entered: 1
+Zeroes entered: 1
+```
+In this example, the user enters the numbers `5`, `-3`, and `0`. The code determines the counts of positive, negative, and zero numbers and prints the corresponding messages.

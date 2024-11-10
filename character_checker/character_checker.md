@@ -21,3 +21,24 @@ ___
 ### Outputs
 - None
 ___
+
+## Purpose
+The purpose of this code snippet is to demonstrate how to check the type of a given character in Python. It allows the user to input a character and then determines whether the character is an alphabet, a digit, or a special symbol. This is a fundamental operation in Python programming and is useful for understanding how to work with conditionals and string methods.
+
+## Instructions to Run the Code
+1. Ensure that Python is installed on your system. You can download and install Python from the official website: [Python.org](https://www.python.org/)
+2. Copy the code snippet into a Python file, for example, `character_checker.py`.
+3. Open a terminal or command prompt and navigate to the directory where the Python file is saved.
+4. Run the Python file using the following command:
+   ```bash
+   python character_checker.py
+   ```
+5. Follow the prompt to enter a character. The type of the character will be printed as the output.
+
+## Example Usage and Expected Output
+When you run the code, you will be prompted to enter a character. For example:
+```python
+Enter a character: A
+The character 'A' is an alphabet.
+```
+In this example, the user enters the character `A`. The message "The character 'A' is an alphabet." is printed as the output.
